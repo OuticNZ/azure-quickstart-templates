@@ -18,10 +18,10 @@ steps:
   inputs:
     deploymentScope: 'Resource Group'
     azureResourceManagerConnection: '<your-resource-manager-connection>'
-    subscriptionId: '<your-subscription-id>'
+    subscriptionId: '31e6073e-2a1c-40ba-96c5-3ef44e1cec65'
     action: 'Create Or Update Resource Group'
     resourceGroupName: 'ARMPipelinesLAMP-rg'
-    location: '<your-closest-location>'
+    location: 'australiaeast'
     templateLocation: 'Linked artifact'
     csmFile: '$(Build.ArtifactStagingDirectory)/azuredeploy.json'
     csmParametersFile: '$(Build.ArtifactStagingDirectory)/azuredeploy.parameters.json'
